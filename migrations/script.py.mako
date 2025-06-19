@@ -16,9 +16,9 @@ branch_labels = ${repr(branch_labels)}
 depends_on = ${repr(depends_on)}
 
 
-def upgrade() -> None:
+def upgrade():
     ${upgrades if upgrades else "pass"}
 
 
-def downgrade() -> None:
-    ${downgrades if downgrades else "pass"} 
+def downgrade():
+    ${downgrades if downgrades else "pass"}
